@@ -17,6 +17,9 @@
 * {
   scroll-behavior: smooth;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .text-gradient {
   background: radial-gradient(
@@ -141,4 +144,20 @@
 
 img.company-logo:hover {
   opacity: 0.8;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background: #def9fa;
+  border-radius: 2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #33bbcf;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5ce1e6;
 }
