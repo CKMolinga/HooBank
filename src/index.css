@@ -146,6 +146,10 @@ img.company-logo:hover {
   opacity: 0.8;
 }
 
+.not-exist {
+  color: #fff;
+}
+
 ::-webkit-scrollbar {
   width: 0.5rem;
   background: #def9fa;
